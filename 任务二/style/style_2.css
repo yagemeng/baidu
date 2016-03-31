@@ -1,0 +1,159 @@
+body{
+	margin: 0 0;
+	padding: 0 0;
+	font-family:"Microsoft YaHei",sans-serif; 
+	background-color: rgb(222,222,222);
+}
+header{
+    background-color: rgb(51, 51, 51);
+    height: 70px;
+    min-width: 1000px;
+}
+#top {
+    width: 100%;
+    height: 100px;
+}
+#top a {
+    text-decoration: none;
+    color: white;
+}
+#top a:hover {
+    text-decoration: none;
+    color: rgb(222,222,222);
+}
+#top img {
+    height: 50px;
+    margin: 10px 0 0 100px;
+}
+nav {
+    margin: 0 80px 0 0;
+    padding: 0;
+    float: right;
+    height: 60px;
+    line-height: 40px;
+}
+nav li {
+	font-size:0.8em; 
+
+    display: inline;
+    margin-left: 20px;
+}
+article {
+	width: 85%;
+	border: thin solid rgb(203, 203, 203);
+	padding: 30px;
+	margin: 30px auto;
+	background-color: white;
+	line-height: 30px;
+	word-break: normal;
+	border-right-style: ridge;
+	border-bottom-style: ridge;
+}
+article p {
+	text-indent: 2em;
+}
+h3+p{
+	text-indent: 0em;
+}
+h3,h4{
+	color: gray;
+}
+article ul{
+	list-style-type: none;
+}
+#picture li{
+	background-color: white;
+	margin-bottom:20px; 
+	width: 120px;
+	height: 140px;
+	list-style-type: none;
+	border: thin solid rgb(222,222,222);
+	text-align: center;
+	font-size: 0.7em;
+}
+#picture img{
+	height: 100px;
+	margin-top:0px; 
+}
+#picture p{
+	display: inline;
+}
+table{
+	width: 100% ;
+	font-size: 0.7em;
+	text-align: left;
+	border-collapse: collapse;
+
+}
+th{
+	background-color: black;
+	color: white;
+	border: thin solid rgb(203, 203, 203);
+}
+td{
+	border: thin solid rgb(203, 203, 203);
+	width: 40%;
+}
+#last{
+	background-color:rgb(203, 203, 203);
+	font-weight:bold; 
+}
+
+
+
+#subForm{
+	font-size:.8em;
+	margin: 0px;
+	margin-left:150px; 
+}
+#subForm .label{
+	display: inline-block;
+	width:150px;
+	margin-right:10px;
+	text-align:right;
+	font-weight:bold;
+	line-height: 0px;
+	margin-bottom:0px; 
+}
+.label p{
+	margin: 0;
+	padding: 0;
+}
+#subForm input{
+	vertical-align: middle;
+}
+#subForm p{
+	margin: 0;
+	padding: 0;
+}
+.tip{
+	color: rgb(203, 203, 203);
+	display: inline;
+	padding-left:190px; 
+	
+}
+
+#subForm textarea{
+	width: 500px;
+	height: 100px;
+	vertical-align: text-top;
+}
+#submit{
+	margin-left: 0px;
+	margin-top:10px; 
+	width: 80%;
+	background-color: #342eff;
+	font-size: 15px;
+	height: 40px;
+	color: #ffffff;
+	border:0px;
+	border-radius: 10px;
+
+}
+footer{
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+}
