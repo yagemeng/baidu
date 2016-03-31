@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif; 
+}
+
+.container,.left,.center,.right,.left img,.right img{
+    border: 1px solid #999;
+}
+.left,.center,.right{
+    background-color: #fff;
+}
+.container{
+    margin: 20px;
+    padding: 20px;
+    min-width: 680px;
+    background-color: #eee;
+    height: 450px;
+}
+.left{
+    width: 200px;
+    position: relative;
+    float: left;
+}
+.left img{
+	width: 80px;
+	height: 80px;
+    margin: 12px;
+}
+.tname{
+	display: inline-block;
+	font-size: 15px;
+	
+	position: absolute;
+	padding-left:10px;
+	padding-top:20px;
+}
+.center{
+    padding: 10px 20px;
+    margin-right: 142px;
+    margin-left: 220px;
+}
+.center p{
+    line-height: 1.5em;
+}
+.right{
+    width: 120px;
+    padding: 10px 0;
+    float: right;
+}
+.right img{
+	width: 80px;
+	height: 80px;
+    margin: 10px 20px;
+}
